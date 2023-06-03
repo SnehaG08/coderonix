@@ -123,6 +123,7 @@ a:hover{
     border: 1px solid #fff;
     margin: 0 20px;
     border-radius: 10px;
+    text-align: center;
 }
 
 .box1{
@@ -143,7 +144,8 @@ a:hover{
 
 .bhead{
     position: relative;
-    top: 300;
+    top: 315px;
+    font-size: 22px;
 }
 
 @keyframes arrow-anim
@@ -154,7 +156,7 @@ a:hover{
     }
 
     20%{
-        border-color: #000;
+        border-color: #fff;
     }
 
     20.1%,100%{
