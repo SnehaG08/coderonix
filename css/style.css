@@ -46,10 +46,21 @@ a:hover{
 
 /* Navbar */
 
+.nav ul{
+    text-align: right;
+    padding-right: 80px;
+}
+
+.nav ul li{
+    display: inline-block;
+    padding: 50px 30px;
+    font-size: 23px;
+}
+
 .midtxt{
     text-align: center;
-    padding-top: 30vh;
-    font-size: 120px;
+    padding-top: 28vh;
+    font-size: 90px;
     font-weight: bold;
     text-transform: uppercase;
     color: #66FCF1;
@@ -67,7 +78,7 @@ a:hover{
 .indicator{
     position: absolute;
     top: 85vh;
-    left: 740px;
+    left: 760px;
     width: 30px;
     height: 30px;
     transform: rotate(45deg);
@@ -97,7 +108,7 @@ a:hover{
 
 .browse{
     background-color: #12151C;
-    width: 93.4%;
+    width: 93.44%;
     height: 80vh;
     padding: 50px;
 }
@@ -120,7 +131,6 @@ a:hover{
 .box-4{
     width: 30%;
     height: 50vh;
-    border: 1px solid #fff;
     margin: 0 20px;
     border-radius: 10px;
     text-align: center;
